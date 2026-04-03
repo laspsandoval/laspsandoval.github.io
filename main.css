@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   color: #222;
-  background: #f8fafc;
+  background: white;
   line-height: 1.6;
 }
 
@@ -17,11 +17,6 @@ body {
   top: 0;
 }
 
-.site-title {
-  font-weight: 700;
-  font-size: 1.1rem;
-}
-
 .nav a {
   color: white;
   text-decoration: none;
@@ -32,52 +27,66 @@ body {
   text-decoration: underline;
 }
 
-.hero {
-  padding: 80px 32px 50px;
-  background: linear-gradient(135deg, #dbeafe, #ecfeff);
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
 }
 
-.hero h1 {
-  margin-bottom: 8px;
-  font-size: 2.4rem;
+.home {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.home-text {
+  flex: 2;
+}
+
+.home-image {
+  flex: 1;
+}
+
+.home-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+h1 {
+  margin-bottom: 10px;
 }
 
 .subtitle {
-  font-size: 1.15rem;
   font-weight: 600;
-  margin-bottom: 16px;
+  margin-bottom: 15px;
 }
 
 .section {
-  padding: 50px 32px;
-  max-width: 1100px;
-  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
+h2 {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 5px;
 }
 
-.card {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-}
-
-.architecture-img {
-  width: 100%;
-  max-width: 1000px;
-  display: block;
+h3 {
   margin-top: 20px;
-  border-radius: 8px;
-  background: white;
+  margin-bottom: 5px;
 }
 
 .footer {
   text-align: center;
-  padding: 24px;
+  padding: 30px;
   color: #666;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 90px;
 }
