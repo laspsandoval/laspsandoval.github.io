@@ -1,7 +1,10 @@
 title: Laura Sandoval
-theme: minima
+description: Software engineer working on IMAP, I-ALiRT, and cloud-based science data systems
+theme: jekyll-theme-minimal
 
 header_pages:
   - index.md
+  - about.md
   - projects.md
   - architecture.md
+  - contact.md
