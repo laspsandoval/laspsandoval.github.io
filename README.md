@@ -1,24 +1,26 @@
+---
+layout: home
+title: Laura Sandoval
+---
+
 # Laura Sandoval
 
-Software Engineer | IMAP Science Operations Center (LASP)
+Software Engineer at LASP supporting the IMAP Science Operations Center.
 
-I build real-time space weather data systems and cloud infrastructure for NASA missions.
+I build real-time space weather data systems, cloud infrastructure, and mission operations tools for NASA heliophysics missions, with a focus on I-ALiRT, scientific data pipelines, and AWS-based architecture.
 
-## 🚀 Projects
+## Focus Areas
 
-### I-ALiRT Real-Time Pipeline
-- AWS ECS (EC2)
-- Network Load Balancer (TCP ingest)
-- Global ground station integration
+### Real-Time Mission Operations
+I support the I-ALiRT system for low-latency ingest, processing, and delivery of space weather data from international ground stations.
 
-### IMAP Data Systems
-- sds-data-manager (AWS CDK)
-- imap_processing (science pipeline)
-- API Gateway + Lambda + DynamoDB
+### Cloud Infrastructure
+I design and maintain AWS systems using CDK, ECS, Lambda, API Gateway, DynamoDB, S3, and related services for operational science workflows.
 
-### SPICE & Geometry
-- Spacecraft pointing frames
-- Coordinate transformations
+### Science Data Systems
+My work includes IMAP data access, processing pipelines, SPICE-based geometry, and instrument data products.
 
-## 🔗 Links
-- GitHub: https://github.com/laspsandoval
+## Explore
+- [Projects](/projects)
+- [Architecture](/architecture)
+- [GitHub](https://github.com/laspsandoval)
