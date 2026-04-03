@@ -1,0 +1,7 @@
+title: Laura Sandoval
+theme: minima
+
+header_pages:
+  - index.md
+  - projects.md
+  - architecture.md
